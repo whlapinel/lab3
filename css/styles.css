@@ -1,0 +1,70 @@
+
+/*CSS Variables*/
+:root {
+  --primary-color: #9c5526;
+  --secondary-color: #54331d;
+  --white-color: #ede7e3;
+  --hover-color: #ec823c;
+  --black-color: #353331;
+  --black75: hsla(24, 4%, 20%, 0.75);
+}
+
+/*Global Styles*/
+h1 {
+  font-size: 2.7rem;
+}
+
+
+h3 {
+  font-size: 1.9rem;
+}
+
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+
+
+/*Header*/
+
+
+
+/* main */
+
+
+
+
+/* About section */
+
+
+
+
+/*Menu section*/
+
+.item p {
+  display: inline-block;
+
+}
+
+.title {
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  width: 25%;
+  text-align: right;
+}
+
+
+/*Reservation section*/
+
+
+
+
+/*footer*/
