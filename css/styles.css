@@ -28,7 +28,7 @@ body {
 
 }
 
-h1, h2, h3 {
+h1, h3, h4 {
   font-family: 'Patua One', cursive;
   color: var(--primary-color);
   margin-bottom: 1.5rem;
@@ -63,6 +63,8 @@ h3 {
 
 h4 {
   font-size: 1.6rem;
+  text-align: center;
+  color: var(--primary-color);
 }
 
 .small {
