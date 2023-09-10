@@ -101,12 +101,48 @@ nav a:hover {
 
 /* main */
 
+main {
+  background-color: var(--white-color);
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+}
 
+div.content-wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+main section:nth-of-type(1), 
+main section:nth-of-type(2) {
 
+  margin-bottom: 1rem;
+  
+}
 /* About section */
 
+#about {
+  max-width: 60ch;
+}
 
+#about p {
+  margin-bottom: 0.5rem;
+}
+
+#about li {
+  list-style: none;
+  background-image: url("/images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 1em 1em;
+  padding-left: 1.5em;
+  background-position: 0 0.2em;
+}
 
 
 /*Menu section*/
