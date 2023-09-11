@@ -167,7 +167,43 @@ main section:nth-of-type(2) {
 
 /*Reservation section*/
 
+form * {
+  font: inherit;
+  color: var(--black-color);
+}
 
+label {
+  display: block;
+  color: var(--black75);
+}
+
+input, select, textarea {
+  background-color: #d6ab8f;
+  width: 100%;
+  border: none;
+  margin-bottom: 0.5em;
+}
+
+input[type="submit"] {
+  font-size: 1.25rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
 
 
 /*footer*/
+
+footer {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
