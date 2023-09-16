@@ -22,7 +22,7 @@ body {
   font-size: 1.1rem;
   color: var(--black-color);
   line-height: 1.4;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://webpages.charlotte.edu/wlapinel/itis3135/lab3/images/coffee.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/coffee.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -132,7 +132,7 @@ main section:nth-of-type(2) {
 
 #about li {
   list-style: none;
-  background-image: url("https://webpages.charlotte.edu/wlapinel/itis3135/lab3/images/logo.png");
+  background-image: url("../images/logo.png");
   background-repeat: no-repeat;
   background-size: 1em 1em;
   padding-left: 1.5em;
